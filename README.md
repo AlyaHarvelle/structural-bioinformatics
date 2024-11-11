@@ -8,7 +8,7 @@ In our folder we have 1aba.cif file for testing.
 
 Running the code:
 1) Open the folder "contact_classification" in the terminal
-2) Run the command `$python3 calc_features.py 1aba.cif` -out_dir output/
+2) Run the command `$python3 calc_features.py 1aba.cif -out_dir output/`
 
 This command generates .tsv file in the "output" folder. 
 The file consists of features columns and the "Interaction" column, calculated by the classifier_rf.ipynb.
